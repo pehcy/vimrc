@@ -76,7 +76,7 @@ filetype plugin indent on    " required
 
 let g:tex_flavor = "latex"
 let g:Tex_CompileRule_dvi = 'latex -interaction=nonstopmode -file-line-error-style $*'
-let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode -file-line-error-style $*'
+let g:Tex_CompileRule_pdf = 'pdflatex -shell-escape -interaction=nonstopmode -file-line-error-style $*'
 
 let g:Tex_MultipleCompileFormats = 'pdf'
 let g:Tex_DefaultTargetFormat = 'pdf'
